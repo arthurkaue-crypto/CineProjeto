@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Cinema - Menu Lateral</title>
+    <link rel="stylesheet" href="cinema.css" />
+    <!-- fonts opcionais -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=BBH+Sans+Hegarty&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- SIDEBAR: menu lateral interativo -->
+    <div class="sidebar" tabindex="0" aria-label="Menu lateral">
+        <div class="brand">
+            <span class="logo">🍿</span>
+            <span class="brand-text">Cinema</span>
+        </div>
+
+        <ul class="menu">
+            <li><a href="#"><span class="icon">🏠</span><span class="text">Início</span></a></li>
+            <li><a href="#"><span class="icon">🎬</span><span class="text">Filmes</span></a></li>
+            <li><a href="#"><span class="icon">⭐</span><span class="text">Séries</span></a></li>
+            <li><a href="#"><span class="icon">⚙️</span><span class="text">Configuração</span></a></li>
+        </ul>
+    </div>
+
+    <!-- MAIN: conteúdo principal do site -->
+    <main class="main">
+        <img class="img-fundo" src="CAPAS/baixados.png" alt="Fundo">
+
+        <div class="barra2">
+            <h1>Rede Canais 2.0</h1>
+            <nav class="barra">
+                <p href="#">Inicio</p>
+                <p href="#">Filmes</p>
+                <p href="#">Animes</p>
+                <p href="#">Series</p>
+            </nav>
+        </div>
+
+    
+        <section class="nomesdosfilmes">
+            <p>Filmes em cartaz</p>
+        </section>
+
+        <section class="conteudo-filmes">
+
+            <div class="filme1">
+                <img src="CAPAS/Mortal Kombat.webp" alt="Mortal Kombat">
+                <div class="overlay"></div>
+                <div class="info1">
+                    <h4>Mortal Kombat</h4>
+                    <p>Gênero: Ação, Fantasia, Aventura • Duração: 1h50</p>
+                </div>
+            </div>
+
+            <div class="filme2">
+                <img src="CAPAS/87253716-1e3e-4ef0-bf6a-f36bdec3ae5f.gif" alt="Filme">
+                <div class="overlay"></div>
+                <div class="info2">
+                    <h4>O Silêncio dos Inocentes</h4>
+                    <p>Gênero: Suspense, Terror • Classificação: 16+</p>
+                </div>
+            </div>
+
+            <div class="filme3">
+                <img src="CAPAS/Filme_ Ainda Estou Aqui.jfif" alt="Filme 3">
+                <div class="overlay"></div>
+                <div class="info3">
+                    <h4>Ainda Estou Aqui</h4>
+                    <p>Gênero: Drama</p>
+                </div>
+            </div>
+
+            <div class="filme4">
+                <img src="CAPAS/Homem Aranha no Aranhaverso.jfif" alt="Filme 4">
+                <div class="overlay"></div>
+                <div class="info4">
+                    <h4>Aranhaverso</h4>
+                    <p>Gênero: Animação, Aventura</p>
+                </div>
+            </div>
+
+            <!-- segunda linha -->
+            <div class="filme1">
+                <img src="CAPAS/O Show de Truman.png" alt="O Show de Truman">
+                <div class="overlay"></div>
+                <div class="info1">
+                    <h4>O Show de Truman</h4>
+                </div>
+            </div>
+
+            <div class="filme2">
+                <img src="CAPAS/PulpFiction.png" alt="Pulp Fiction">
+                <div class="overlay"></div>
+                <div class="info2">
+                    <h4>Pulp Fiction</h4>
+                </div>
+            </div>
+
+            <div class="filme3">
+                <img src="CAPAS/Clube da Luta.png" alt="Clube da Luta">
+                <div class="overlay"></div>
+                <div class="info3">
+                    <h4>Clube da Luta</h4>
+                </div>
+            </div>
+
+            <div class="filme4">
+                <img src="CAPAS/O Poderoso Chefão.png" alt="O Poderoso Chefão">
+                <div class="overlay"></div>
+                <div class="info4">
+                    <h4>O Poderoso Chefão</h4>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="java.js"></script>
+    
+    <!--TESTE DE CARROSSEL-->
+
+    <div class="container">
+    <input type="radio" name="slider" id="item-1" checked>
+    <input type="radio" name="slider" id="item-2">
+    <input type="radio" name="slider" id="item-3">
+  <div class="cards">
+    <label class="card" for="item-1" id="song-1">
+      <img src="https://images.unsplash.com/photo-1530651788726-1dbf58eeef1f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80" alt="song">
+    </label>
+    <label class="card" for="item-2" id="song-2">
+      <img src="https://images.unsplash.com/photo-1559386484-97dfc0e15539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1234&q=80" alt="song">
+    </label>
+    <label class="card" for="item-3" id="song-3">
+      <img src="https://images.unsplash.com/photo-1533461502717-83546f485d24?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60" alt="song">
+    </label>
+  </div>
+  <div class="player">
+    <div class="upper-part">
+      <div class="play-icon">
+        <svg width="20" height="20" fill="#2992dc" stroke="#2992dc" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="feather feather-play" viewBox="0 0 24 24">
+          <defs/>
+          <path d="M5 3l14 9-14 9V3z"/>
+        </svg>
+      </div>
+      <div class="info-area" id="test">
+        <label class="song-info" id="song-info-1">
+          <div class="title">Bunker</div>
+          <div class="sub-line">
+            <div class="subtitle">Balthazar</div>
+            <div class="time">4.05</div>
+          </div>
+        </label>
+        <label class="song-info" id="song-info-2">
+          <div class="title">Words Remain</div>
+          <div class="sub-line">
+            <div class="subtitle">Moderator</div>
+            <div class="time">4.05</div>
+          </div>
+        </label>
+        <label class="song-info" id="song-info-3">
+          <div class="title">Falling Out</div>
+          <div class="sub-line">
+            <div class="subtitle">Otzeki</div>
+            <div class="time">4.05</div>
+          </div>
+        </label>
+      </div>
+    </div>
+    <div class="progress-bar">
+      <span class="progress"></span>
+    </div>
+  </div>
+</div>
+
+<!--FINAL CARROSSEL-->
+
+</body>
+</html>
+
+
+
