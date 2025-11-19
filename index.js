@@ -2,6 +2,7 @@
 	 - Em desktop o menu abre com :hover ou :focus-within
 	 - Em touch, clicando na área da sidebar (não em links) alterna a classe .open
 */
+import { SpeedInsights } from "@vercel/speed-insights/next"
 (function () {
 	const sidebar = document.querySelector('.sidebar');
 	if (!sidebar) return;
